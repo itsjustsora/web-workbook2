@@ -54,7 +54,7 @@ dependencies {
     implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
 
     implementation 'org.modelmapper:modelmapper:3.1.0'
-    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+    implementation 'org.hibernate.validator:hibernate-validator:6.2.1.Final'
 
 }
 
