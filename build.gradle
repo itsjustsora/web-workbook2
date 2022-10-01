@@ -50,8 +50,12 @@ dependencies {
 
     implementation group: 'jstl', name: 'jstl', version: '1.2'
 
-    implementation 'org.mariadb.jdbc:mariadb-java-client:3.0.4'
+    implementation 'org.mariadb.jdbc:mariadb-java-client:3.0.6'
     implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+
+    implementation 'org.modelmapper:modelmapper:3.1.0'
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+
 }
 
 test {
