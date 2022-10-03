@@ -71,9 +71,6 @@
       </div>
     </div>
   </div>
-  <div class="row content">
-    <h1>Content</h1>
-  </div>
 
   <div class="row footer">
     <div class="row fixed-bottom" style="z-index: -100">

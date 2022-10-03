@@ -67,9 +67,9 @@
 
           <div class="form-check">
             <label class="form-check-label">
-              Finished &nbsp;
+              Finished &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
-            <input class="form-check-input" type="checkbox" name="finished" value="${dto.finished? "checked" : ""}">
+            <input class="form-check-input" type="checkbox" name="finished" ${dto.finished? "checked" : ""}>
           </div>
 
           <div class="my-4">
@@ -93,12 +93,36 @@
               formObj.submit()
             }, false)
 
+            document.querySelector(".btn-primary").addEventListener("click", function (e) {
+              e.preventDefault()
+              e.stopPropagation()
+              formObj.action = "/todo/modify"
+              formObj.method = "post"
+
+              formObj.submit()
+            }, false)
+
             document.querySelector(".btn-secondary").addEventListener("click", function (e) {
+              e.preventDefault()
+              e.stopPropagation()
+
               self.location = "/todo/list";
             }, false)
           </script>
           </form>
         </div>
+
+        <script>
+
+          const serverValidResult = {}
+
+          <c:forEach items="${errors}" var="error">
+          serverValidResult['${error.getField()}'] = '${error.defaultMessage}'
+          </c:forEach>
+
+          console.log(serverValidResult)
+
+        </script>
       </div>
     </div>
   </div>

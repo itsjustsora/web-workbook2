@@ -66,9 +66,9 @@
 
           <div class="form-check">
             <label class="form-check-label">
-              Finished &nbsp;
+              Finished &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </label>
-            <input class="form-check-input" type="checkbox" name="finished" value="${dto.finished? "checked" : ""}" readonly>
+            <input class="form-check-input" type="checkbox" name="finished" ${dto.finished? "checked" : ""} readonly>
           </div>
 
           <div class="my-4">

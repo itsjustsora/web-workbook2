@@ -3,8 +3,6 @@ I
 src/main/webapp/index.jsp,8/e/8e6d3b70c9f5b02570779b0441540d45eceb0ded
 ~
 Nsrc/main/java/org/zerock/springex/controller/formatter/LocalDateFormatter.java,f/1/f12c13240bd88016ed79278be53b2ca778887ad3
-[
-+src/main/webapp/WEB-INF/servlet-context.xml,c/a/caa71e388fea443d533669ba089beac8771da866
 m
 =src/test/java/org/zerock/springex/mapper/TimeMapperTests.java,5/0/5085c9ac98ecb9c1239c382efb90d48341cecd33
 r
@@ -19,8 +17,6 @@ w
 G.idea/sonarlint/issuestore/c/a/caa71e388fea443d533669ba089beac8771da866,b/7/b78271b2ce38cedbaa71b2aaf68cecc8a1c9db9b
 w
 G.idea/sonarlint/issuestore/f/1/f12c13240bd88016ed79278be53b2ca778887ad3,5/0/50d520f073d96984f4d6dac733338befdeb67b06
-d
-4src/main/java/org/zerock/springex/domain/TodoVO.java,6/b/6bcf05ddd67e609250d57d0e647aaff9504554ee
 h
 8src/main/java/org/zerock/springex/mapper/TimeMapper.java,a/0/a07ff73d598818848d2c0f7e2be66f8c022b1d6b
 X
