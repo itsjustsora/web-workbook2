@@ -33,4 +33,9 @@ public class TodoMapperTests {
 
         todoMapper.insert(todoVO);
     }
+
+    @Test
+    void testSelectAll() {
+        todoMapper.selectAll();
+    }
 }
