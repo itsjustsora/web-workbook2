@@ -38,4 +38,11 @@ public class TodoMapperTests {
     void testSelectAll() {
         todoMapper.selectAll();
     }
+
+    @Test
+    void testSelectOne() {
+
+        TodoVO todoVO = todoMapper.selectOne(1L);
+        log.info("todoVO: {}", todoVO);
+    }
 }
