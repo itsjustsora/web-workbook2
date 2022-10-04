@@ -25,5 +25,21 @@ X
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 O
 src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+[
++src/main/webapp/WEB-INF/views/custom404.jsp,1/c/1cb35867cf59d724ddd41142fdeec2b997792910
 o
-?src/test/java/org/zerock/springex/service/TodoServiceTests.java,0/4/04a5469a750afd5305ace764c5ace0325386908e
+?src/main/java/org/zerock/springex/config/ModelMapperConfig.java,e/c/ece150d39a24a8808a71e24d179ed856774636c1
+S
+#src/main/webapp/resources/test.html,6/1/6101ba3488f9d724786dbe773c3457b627399898
+_
+/src/main/java/org/zerock/springex/lombok.config,1/d/1d185f47d369fb5768628b7214f859a14bdd7568
+_
+/src/main/webapp/WEB-INF/views/todo/register.jsp,7/f/7f02d2b324e8d8673634737c476025f114eef7a3
+d
+4src/main/java/org/zerock/springex/domain/TodoVO.java,6/b/6bcf05ddd67e609250d57d0e647aaff9504554ee
+b
+2src/main/java/org/zerock/springex/dto/TodoDTO.java,a/c/ac5302c04195b181fa213f025492707b16739722
+}
+Msrc/main/java/org/zerock/springex/controller/formatter/CheckboxFormatter.java,9/6/96416909d23471842ffae818a668ca0df205874a
+[
++src/main/webapp/WEB-INF/servlet-context.xml,c/a/caa71e388fea443d533669ba089beac8771da866
